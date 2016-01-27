@@ -7,7 +7,7 @@ var ws = require('ws'),
 
 // Server configuration
 var DVNA = express();
-DVNA.disable('X-Powered-By');
+//DVNA.disable('X-Powered-By');
 var port = process.env.PORT || 6666;
 var mode = process.env.MODE || 'training';
 var vulnerabilities = [];
